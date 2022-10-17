@@ -7,6 +7,7 @@ public class Cat extends Animal {
     }
 
     @Override
+    @RunImmediately(times = 2)
     public void makeNoise(){
         System.out.println("Meow");
     }
