@@ -10,4 +10,13 @@ public class Cat extends Animal {
     public void makeNoise(){
         System.out.println("Meow");
     }
+
+    public boolean isHasKittens() {
+        return hasKittens;
+    }
+
+    public void setHasKittens(boolean hasKittens) {
+        this.hasKittens = hasKittens;
+    }
+
 }
